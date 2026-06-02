@@ -160,4 +160,4 @@ node index.js >> agent_log.txt 2>&1
 
 ---
 
-Built with ❤️ using Gemini AI & Google Search Grounding.
+-Hemal Mistry
