@@ -1,0 +1,23 @@
+{
+  "name": "daily-ai-agent",
+  "version": "1.0.0",
+  "description": "An AI Assistant that gathers daily AI news, tools, and events using the Gemini API with Google Search Grounding and emails a premium summary newsletter.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.13"
+  },
+  "keywords": [
+    "gemini",
+    "ai-agent",
+    "google-search-grounding",
+    "newsletter",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC"
+}
