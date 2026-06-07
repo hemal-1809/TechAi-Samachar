@@ -1,16 +1,13 @@
 name: TechAI Samchar — Daily Digest
-
 on:
   schedule:
-    # 3:00 AM UTC is 8:30 AM IST (UTC + 5:30)
-    - cron: '0 3 * * *'
+    # 2:50 AM UTC = 8:20 AM IST (buffer for GitHub delay ~10min)
+    - cron: '50 2 * * *'
   workflow_dispatch:
-    # Allows you to manually trigger this workflow at any time from the GitHub UI
 
 jobs:
   run-agent:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository code
         uses: actions/checkout@v4
@@ -26,7 +23,6 @@ jobs:
 
       - name: Execute Daily Tech Curator Agent
         env:
-          # Inject secrets stored securely in your GitHub repository settings
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           EMAIL_HOST: 'smtp.gmail.com'
           EMAIL_PORT: 587
