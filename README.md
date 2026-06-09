@@ -1,6 +1,6 @@
 # 🔥 TechAI Samchar — Daily AI & Tech News Agent
 
-A fully automated AI-powered newsletter agent that searches the internet for the latest AI model releases, developer tools, tech events, and industry trends — then compiles everything into a **stunning, premium HTML email** and delivers it straight to your inbox every morning at **8:30 AM IST**.
+A fully automated, comprehensive AI-powered tech news agent that searches the internet for the latest AI breakthroughs, phone and laptop launches, GPU news, China tech moves, Big Tech updates, events, and more — then compiles everything into a **stunning, premium HTML email** and delivers it straight to your inbox every morning at **8:30 AM IST**.
 
 > Powered by **Gemini 2.5 Flash** with **Google Search Grounding** (live internet search) + **Nodemailer**.
 
@@ -8,16 +8,20 @@ A fully automated AI-powered newsletter agent that searches the internet for the
 
 ## 📸 What You Get
 
-Every morning you receive a beautifully designed email with:
-- 🔥 **Top Story of the Day** — The single biggest AI/tech headline with full analysis
-- 🧠 **AI Models & Releases** — Claude, Gemini, GPT, Llama updates with clickable source links
-- 🛠️ **New Tools & Platforms** — Developer tools, open-source launches, startup products
-- 📰 **Industry & Trends** — Funding, chips, regulations, broader tech shifts
-- 📅 **Upcoming Events** — Conferences and events you should know about
-- 💡 **Insight of the Day** — Sharp editorial commentary on what it all means
+Every morning you receive a beautifully designed email with **9 curated sections**:
+- 🚨 **Breaking News** — The single biggest tech headline with "Why This Matters" analysis
+- 🤖 **AI Models & Tools** — OpenAI, Google, Anthropic, Meta, Mistral, xAI, Midjourney, and more
+- 📱 **Mobile Phones** — New launches and updates from Apple, Samsung, Xiaomi, OnePlus, Realme, and more (India prices included)
+- 💻 **Laptops** — MacBook, ThinkPad, ROG, XPS, Surface launches with specs and India pricing
+- 🎮 **Nvidia & GPU News** — RTX updates, AI chips, CUDA, Nvidia earnings and announcements
+- 🇨🇳 **China Tech** — Huawei, DeepSeek, Baidu, Alibaba, ByteDance, BYD, DJI updates
+- 🏢 **Big Tech** — Apple, Google, Microsoft, Meta, Amazon, Tesla, SpaceX Starlink news
+- 📅 **Events & Conferences** — USA, India, Gujarat-specific events, and college hackathons
+- ✍️ **Editor's Take** — Personal commentary with a motivational line for Indian tech students
 - 📎 **Sources & References** — Every source article, clickable and numbered
 
 **Every headline is clickable** and takes you directly to the original article!
+News is tagged with 🇮🇳 (India) or 🌍 (Global) flags, plus 🆕 NEW LAUNCH and 🤖 NEW MODEL badges.
 
 ---
 
