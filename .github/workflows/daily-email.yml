@@ -1,22 +1,30 @@
 name: TechAI Samchar — Daily Digest
 on:
   schedule:
-    # 2:50 AM UTC = 8:20 AM IST (buffer for GitHub delay ~10min)
-    - cron: '50 2 * * *'
+    # 3:00 AM UTC = 8:30 AM IST
+    - cron: '0 3 * * *'
   workflow_dispatch:
+
 jobs:
   run-agent:
     runs-on: ubuntu-latest
+    
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
       - name: Checkout repository code
         uses: actions/checkout@v4
+
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
+
       - name: Install dependencies
         run: npm ci
+
       - name: Execute Daily Tech Curator Agent
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
