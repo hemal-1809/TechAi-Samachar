@@ -1,4 +1,4 @@
-# 🔥 TechAI Samchar — Daily AI & Tech News Agent
+# 🔥 TechAI Samchar (Daily AI & Tech News Agent)
 
 A fully automated, comprehensive AI-powered tech news agent that searches the internet for the latest AI breakthroughs, phone and laptop launches, GPU news, China tech moves, Big Tech updates, events, and more — then compiles everything into a **stunning, premium HTML email** and delivers it straight to your inbox every morning at **8:30 AM IST**.
 
