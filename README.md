@@ -9,16 +9,16 @@ A fully automated, comprehensive AI-powered tech news agent that searches the in
 ## 📸 What You Get
 
 Every morning you receive a beautifully designed email with **9 curated sections**:
-- 🚨 **Breaking News** — The single biggest tech headline with "Why This Matters" analysis
-- 🤖 **AI Models & Tools** — OpenAI, Google, Anthropic, Meta, Mistral, xAI, Midjourney, and more
-- 📱 **Mobile Phones** — New launches and updates from Apple, Samsung, Xiaomi, OnePlus, Realme, and more (India prices included)
-- 💻 **Laptops** — MacBook, ThinkPad, ROG, XPS, Surface launches with specs and India pricing
-- 🎮 **Nvidia & GPU News** — RTX updates, AI chips, CUDA, Nvidia earnings and announcements
-- 🇨🇳 **China Tech** — Huawei, DeepSeek, Baidu, Alibaba, ByteDance, BYD, DJI updates
-- 🏢 **Big Tech** — Apple, Google, Microsoft, Meta, Amazon, Tesla, SpaceX Starlink news
-- 📅 **Events & Conferences** — USA, India, Gujarat-specific events, and college hackathons
-- ✍️ **Editor's Take** — Personal commentary with a motivational line for Indian tech students
-- 📎 **Sources & References** — Every source article, clickable and numbered
+- 🚨 **Breaking News** : The single biggest tech headline with "Why This Matters" analysis
+- 🤖 **AI Models & Tools** : OpenAI, Google, Anthropic, Meta, Mistral, xAI, Midjourney, and more
+- 📱 **Mobile Phones** : New launches and updates from Apple, Samsung, Xiaomi, OnePlus, Realme, and more (India prices included)
+- 💻 **Laptops** : MacBook, ThinkPad, ROG, XPS, Surface launches with specs and India pricing
+- 🎮 **Nvidia & GPU News** : RTX updates, AI chips, CUDA, Nvidia earnings and announcements
+- 🇨🇳 **China Tech** : Huawei, DeepSeek, Baidu, Alibaba, ByteDance, BYD, DJI updates
+- 🏢 **Big Tech** : Apple, Google, Microsoft, Meta, Amazon, Tesla, SpaceX Starlink news
+- 📅 **Events & Conferences** : USA, India, Gujarat-specific events, and college hackathons
+- ✍️ **Editor's Take** : Personal commentary with a motivational line for Indian tech students
+- 📎 **Sources & References** : Every source article, clickable and numbered
 
 **Every headline is clickable** and takes you directly to the original article!
 News is tagged with 🇮🇳 (India) or 🌍 (Global) flags, plus 🆕 NEW LAUNCH and 🤖 NEW MODEL badges.
@@ -41,7 +41,7 @@ News is tagged with 🇮🇳 (India) or 🌍 (Global) flags, plus 🆕 NEW LAUNC
 2. Log in with your Google Account.
 3. Click **"Get API Key"** in the left sidebar.
 4. Click **"Create API Key"** → Select or create a Google Cloud Project.
-5. **Copy the key** — it starts with `AIzaSy...`.
+5. **Copy the key** — it starts with `Abc..123..Xyz...`.
 
 ---
 
@@ -121,7 +121,7 @@ git push -u origin main
 
 ### Step 4: Test it
 1. Go to your repo → **Actions** tab
-2. Click **TechAI Samchar — Daily Digest** on the left
+2. Click **TechAI Samchar—Daily Digest** on the left
 3. Click **Run workflow** → **Run workflow** button
 4. ✅ Done! It will also auto-run every day at 8:30 AM IST.
 
