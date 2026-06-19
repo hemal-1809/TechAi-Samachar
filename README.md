@@ -41,7 +41,7 @@ News is tagged with 🇮🇳 (India) or 🌍 (Global) flags, plus 🆕 NEW LAUNC
 2. Log in with your Google Account.
 3. Click **"Get API Key"** in the left sidebar.
 4. Click **"Create API Key"** → Select or create a Google Cloud Project.
-5. **Copy the key** , it starts with `Abc..123..Xyz...`.
+5. **Copy the key** , it starts with `AIzaSy...your-key-here`.
 
 ---
 
