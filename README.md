@@ -1,167 +1,125 @@
-# 🔥 TechAI Samchar (Daily AI & Tech News Agent)
+# 🗞️ TechAI Samachar (Vintage Newspaper AI Digest)
 
-A fully automated, comprehensive AI-powered tech news agent that searches the internet for the latest AI breakthroughs, phone and laptop launches, GPU news, China tech moves, Big Tech updates, events, and more — then compiles everything into a **stunning, premium HTML email** and delivers it straight to your inbox every morning at **8:30 AM IST**.
+A vintage-styled, automated AI & tech news publication engine written in **Python**. It leverages **Gemini API** with **Google Search Grounding** (live web search) to curate the latest breakthroughs in artificial intelligence, silicon & GPU updates, mobile and laptop launches, China tech, and hackathons — outputting an authentic **vintage broadsheet newspaper** delivered via email and viewable online.
 
-> Powered by **Gemini 2.5 Flash** with **Google Search Grounding** (live internet search) + **Nodemailer**.
-
----
-
-## 📸 What You Get
-
-Every morning you receive a beautifully designed email with **9 curated sections**:
-- 🚨 **Breaking News** : The single biggest tech headline with "Why This Matters" analysis
-- 🤖 **AI Models & Tools** : OpenAI, Google, Anthropic, Meta, Mistral, xAI, Midjourney, and more
-- 📱 **Mobile Phones** : New launches and updates from Apple, Samsung, Xiaomi, OnePlus, Realme, and more (India prices included)
-- 💻 **Laptops** : MacBook, ThinkPad, ROG, XPS, Surface launches with specs and India pricing
-- 🎮 **Nvidia & GPU News** : RTX updates, AI chips, CUDA, Nvidia earnings and announcements
-- 🇨🇳 **China Tech** : Huawei, DeepSeek, Baidu, Alibaba, ByteDance, BYD, DJI updates
-- 🏢 **Big Tech** : Apple, Google, Microsoft, Meta, Amazon, Tesla, SpaceX Starlink news
-- 📅 **Events & Conferences** : USA, India, Gujarat-specific events, and college hackathons
-- ✍️ **Editor's Take** : Personal commentary with a motivational line for Indian tech students
-- 📎 **Sources & References** : Every source article, clickable and numbered
-
-**Every headline is clickable** and takes you directly to the original article!
-News is tagged with 🇮🇳 (India) or 🌍 (Global) flags, plus 🆕 NEW LAUNCH and 🤖 NEW MODEL badges.
+Inspired by classic boutique European editorial design (aged newsprint, Didone serif masthead, 3-column sub-tickers, duotone/monochrome lead photo, and "Sabias Que" editorial analysis).
 
 ---
 
-## 🛠️ Table of Contents
+## 📸 Key Design & Features
 
-1. [Get a Free Gemini API Key](#1-get-a-free-gemini-api-key)
-2. [Get a Gmail App Password](#2-get-a-gmail-app-password)
-3. [Local Setup & Testing](#3-local-setup--testing)
-4. [Deploy to Cloud with GitHub Actions (Free)](#4-deploy-to-cloud-with-github-actions-free)
-5. [Local Scheduling with Windows Task Scheduler](#5-local-scheduling-with-windows-task-scheduler)
-
----
-
-## 1. Get a Free Gemini API Key
-
-1. Go to **[Google AI Studio](https://aistudio.google.com/)**.
-2. Log in with your Google Account.
-3. Click **"Get API Key"** in the left sidebar.
-4. Click **"Create API Key"** → Select or create a Google Cloud Project.
-5. **Copy the key** , it starts with `AIzaSy...your-key-here`.
-
----
-
-## 2. Get a Gmail App Password
-
-Standard Gmail passwords are blocked by Google for script access. You need an **App Password**:
-
-1. Go to **[Google Account → Security](https://myaccount.google.com/security)**.
-2. Enable **2-Step Verification** if not already active.
-3. Search for **"App passwords"** in the search bar at the top.
-4. Enter a name (e.g., `TechAI Samchar`) → Click **Create**.
-5. **Copy the 16-character code** shown (e.g., `abcd efgh ijkl mnop`).
-
----
-
-## 3. Local Setup & Testing
-
-### Step 1: Fill in your `.env` file
-
-Open the `.env` file in the project root and add your credentials:
-
-```env
-GEMINI_API_KEY=AIzaSy...your-key-here
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your-gmail@gmail.com
-EMAIL_PASS=abcdefghijklmnop
-EMAIL_TO=recipient1@gmail.com, recipient2@gmail.com
-```
-
-> 💡 **Multiple recipients?** Just add more emails separated by commas!
-
-### Step 2: Install dependencies
-
-```bash
-npm install
-```
-
-### Step 3: Run it!
-
-```bash
-npm start
-```
-
-Check your inbox — you should see a stunning **TechAI Samchar** newsletter!
-
----
-
-## 4. Deploy to Cloud with GitHub Actions (Free)
-
-This is the **recommended** approach. It runs automatically every morning at 8:30 AM IST in the cloud — **your PC doesn't need to be on!**
-
-### Step 1: Create a Private GitHub Repo
-1. Go to [github.com/new](https://github.com/new)
-2. Name it (e.g., `techai-samchar`)
-3. Set to **Private** → Click **Create Repository**
-
-### Step 2: Add Secrets
-In your repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**:
-
-| Secret Name      | Value                          |
-|------------------|--------------------------------|
-| `GEMINI_API_KEY` | Your Gemini API key            |
-| `EMAIL_USER`     | Your sender Gmail address      |
-| `EMAIL_PASS`     | Your 16-char Gmail App Password|
-| `EMAIL_TO`       | Recipient email(s), comma-separated |
-
-### Step 3: Push the Code
-```bash
-git init
-git add .
-git commit -m "feat: launch TechAI Samchar"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-git push -u origin main
-```
-
-### Step 4: Test it
-1. Go to your repo → **Actions** tab
-2. Click **TechAI Samchar—Daily Digest** on the left
-3. Click **Run workflow** → **Run workflow** button
-4. ✅ Done! It will also auto-run every day at 8:30 AM IST.
-
----
-
-## 5. Local Scheduling with Windows Task Scheduler
-
-If you prefer running it locally:
-
-### Create `run_agent.bat`:
-```cmd
-@echo off
-cd /d "C:\Users\HEMAL\Desktop\Portfolio"
-node index.js >> agent_log.txt 2>&1
-```
-
-### Configure Windows Task Scheduler:
-1. Open **Task Scheduler** (search in Start menu)
-2. Click **Create Basic Task**
-3. Name: `TechAI Samchar`
-4. Trigger: **Daily** at **8:30 AM**
-5. Action: **Start a program** → Browse to `run_agent.bat`
-6. Start in: `C:\Users\HEMAL\Desktop\Portfolio`
-7. Click **Finish**
+- **📰 Vintage Online Broadsheet Edition**:
+  - Full aesthetic layout with warm parchment newsprint (`#F6F4EE`), authentic letterpress typography (`Playfair Display`, `EB Garamond`, `Cinzel`), and grain texture.
+  - Interactive top toolbar with **Toggle Paper Tint (Sepia / Parchment)**, **Print Newspaper (PDF)**, and **Copy Email HTML**.
+- **✉️ Cross-Client Vintage Email Output**:
+  - Built with responsive HTML tables and inline CSS compatible with Gmail, Outlook, Apple Mail, and mobile inboxes.
+  - 3-column top masthead with Japanese/Gujarati editorial badges and red volume stamps (`# 001`).
+  - 3-column sub-headline ticker (`AI & FRONTIER`, `HARDWARE & SILICON`, `GLOBAL TECH`).
+  - Lead story layout featuring monochrome hero photography.
+  - Dual-column editorial grid with categorized updates and the **"Sabias Que..."** Editor's take.
+  - Vintage classifieds calendar for events in the USA, India, Gujarat, and Hackathons.
+  - Grounded source citations formatted as an antique academic bibliography.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-├── .github/workflows/
-│   └── daily-email.yml         # Cloud scheduler (GitHub Actions)
-├── .env                        # Your API keys (gitignored)
-├── .env.example                # Template for credentials
-├── .gitignore                  # Protects secrets from git
-├── package.json                # Dependencies
-├── index.js                    # Core TechAI Samchar engine
-└── README.md                   # This guide
+TechAi-Samachar/
+├── main.py                  # Main CLI entry point
+├── config.py                # Environment configuration & date/edition helpers
+├── agent.py                 # Gemini API with Google Search Grounding & demo fallback
+├── templates.py             # Vintage Email & Vintage Online HTML layout engines
+├── mailer.py                # SMTP email dispatcher with TLS & App Password support
+├── requirements.txt         # Python dependencies (google-genai, python-dotenv, requests)
+├── .env.example             # Configuration template
+├── vintage_online_output.html # Generated interactive vintage online webpage
+├── vintage_email_output.html  # Generated inline-styled email template
+└── .github/workflows/
+    └── daily-email.yml      # Automated 8:30 AM IST GitHub Action runner
 ```
 
 ---
 
--Hemal Mistry
+## 🚀 Quick Start (Local Setup)
+
+### 1. Install Dependencies
+Ensure you have Python 3.10+ installed:
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Immediate Preview (No API Key Required)
+Generate and preview the vintage online newspaper and email layouts right in your browser:
+```bash
+python main.py --demo
+```
+This generates:
+- `vintage_online_output.html` (interactive vintage web broadsheet)
+- `vintage_email_output.html` (email HTML preview)
+
+You can double-click either file to view it in Chrome, Edge, or Safari!
+
+---
+
+## 🔑 Live Setup with Gemini & Email Delivery
+
+### 1. Configure `.env`
+Copy `.env.example` to `.env`:
+```bash
+cp .env.example .env
+```
+Fill in your credentials:
+```env
+# 1. Gemini API Key from https://aistudio.google.com/
+GEMINI_API_KEY=AIzaSy...your-key-here
+
+# 2. Gmail SMTP Credentials
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USER=your_sender_email@gmail.com
+# IMPORTANT: Use a 16-character Gmail App Password (NOT your regular password)
+EMAIL_PASS=abcd efgh ijkl mnop
+
+# 3. Recipients (comma-separated for multiple inboxes)
+EMAIL_TO=recipient1@gmail.com, recipient2@gmail.com
+
+# 4. Optional Editorial Credits
+EDITOR_NAME=Hemal Mistry
+EDITOR_TITLE=Editor-in-Chief, TechAi Samachar
+```
+
+### 2. Test SMTP Connection
+```bash
+python main.py --test-smtp
+```
+
+### 3. Generate & Dispatch Live Edition
+```bash
+python main.py
+```
+
+### 4. Fetch Live News Without Sending Email
+```bash
+python main.py --no-email
+```
+
+---
+
+## ☁️ Automated Daily Cloud Delivery (GitHub Actions)
+
+This repository includes a GitHub Action workflow (`.github/workflows/daily-email.yml`) scheduled to execute every morning at **8:30 AM IST** (3:00 AM UTC).
+
+1. Push this repository to GitHub (Private repository recommended).
+2. Go to **Settings > Secrets and variables > Actions**.
+3. Add the following repository secrets:
+   - `GEMINI_API_KEY`
+   - `EMAIL_USER`
+   - `EMAIL_PASS`
+   - `EMAIL_TO`
+4. The workflow will run automatically every morning, or you can trigger it manually via **Actions > Run workflow**.
+
+---
+
+## 📜 License
+MIT License. Created by Hemal Mistry.
