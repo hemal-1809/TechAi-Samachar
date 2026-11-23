@@ -1,5 +1,9 @@
 # 🗞️ TechAI Samachar (Vintage Newspaper AI Digest)
 
+<p align="center">
+  <img src="preview-banner.jpg" alt="TechAI Samachar Vintage Newspaper Edition" width="100%" />
+</p>
+
 A vintage-styled, automated AI & tech news publication engine written in **Python**. It leverages **Gemini API** with **Google Search Grounding** (live web search) to curate the latest breakthroughs in artificial intelligence, silicon & GPU updates, mobile and laptop launches, China tech, and hackathons — outputting an authentic **vintage broadsheet newspaper** delivered via email and viewable online.
 
 Inspired by classic boutique editorial design (aged newsprint, Didone serif masthead, 3-column sub-tickers, duotone/monochrome lead photo, and "Editor's Take" editorial analysis).
