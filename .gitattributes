@@ -1,0 +1,5 @@
+# Force GitHub Linguist to detect Python and ignore generated HTML artifacts
+*.py linguist-detectable=true
+*.html linguist-detectable=false
+vintage_email_output.html linguist-generated=true
+vintage_online_output.html linguist-generated=true
