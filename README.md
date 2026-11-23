@@ -2,7 +2,7 @@
 
 A vintage-styled, automated AI & tech news publication engine written in **Python**. It leverages **Gemini API** with **Google Search Grounding** (live web search) to curate the latest breakthroughs in artificial intelligence, silicon & GPU updates, mobile and laptop launches, China tech, and hackathons — outputting an authentic **vintage broadsheet newspaper** delivered via email and viewable online.
 
-Inspired by classic boutique European editorial design (aged newsprint, Didone serif masthead, 3-column sub-tickers, duotone/monochrome lead photo, and "Sabias Que" editorial analysis).
+Inspired by classic boutique editorial design (aged newsprint, Didone serif masthead, 3-column sub-tickers, duotone/monochrome lead photo, and "Editor's Take" editorial analysis).
 
 ---
 
@@ -13,10 +13,10 @@ Inspired by classic boutique European editorial design (aged newsprint, Didone s
   - Interactive top toolbar with **Toggle Paper Tint (Sepia / Parchment)**, **Print Newspaper (PDF)**, and **Copy Email HTML**.
 - **✉️ Cross-Client Vintage Email Output**:
   - Built with responsive HTML tables and inline CSS compatible with Gmail, Outlook, Apple Mail, and mobile inboxes.
-  - 3-column top masthead with Japanese/Gujarati editorial badges and red volume stamps (`# 001`).
+  - Clean top masthead with vintage editorial stamps and red volume stamps (`# 001`).
   - 3-column sub-headline ticker (`AI & FRONTIER`, `HARDWARE & SILICON`, `GLOBAL TECH`).
   - Lead story layout featuring monochrome hero photography.
-  - Dual-column editorial grid with categorized updates and the **"Sabias Que..."** Editor's take.
+  - Dual-column editorial grid with categorized updates and the **"Editor's Take"** analysis.
   - Vintage classifieds calendar for events in the USA, India, Gujarat, and Hackathons.
   - Grounded source citations formatted as an antique academic bibliography.
 

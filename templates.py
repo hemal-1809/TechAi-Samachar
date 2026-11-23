@@ -28,14 +28,18 @@ def sanitize_to_vintage_theme(body_html: str) -> str:
     """
     s = body_html
 
+    # Strip section signs (&sect; or §) from anywhere in headers or text
+    s = re.sub(r'(&sect;|§)\s*', '', s)
+
     # 1. Standardize and darken ANY section header variants into solid dark letterpress ribbons
     # Transform old h2 section headers
     def replace_h2(match):
         header_text = match.group(1)
         # Strip internal tags or emojis for clean vintage title
         clean_title = re.sub(r'<[^>]+>', ' ', header_text)
-        # Remove emojis
-        clean_title = re.sub(r'[\U00010000-\U0010ffff]|[\u2600-\u27bf]', '', clean_title).strip()
+        # Remove emojis and section signs
+        clean_title = re.sub(r'[\U00010000-\U0010ffff]|[\u2600-\u27bf]', '', clean_title)
+        clean_title = re.sub(r'(&sect;|§)', '', clean_title).strip()
         clean_title = re.sub(r'\s+', ' ', clean_title)
         
         # Decide badge label
@@ -55,14 +59,14 @@ def sanitize_to_vintage_theme(body_html: str) -> str:
             badge = "ENTERPRISE"
         elif "EVENT" in upper_title or "CONFERENCE" in upper_title:
             badge = "UPCOMING"
-        elif "EDITOR" in upper_title or "SABIAS" in upper_title:
+        elif "EDITOR" in upper_title or "SABIAS" in upper_title or "DID YOU KNOW" in upper_title:
             badge = "OPINION"
 
         return f'''<div style="background:#0a0a0a; border:1px solid #000000; padding:10px 14px; margin:34px 0 16px 0;">
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; {clean_title}
+        {clean_title}
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">{badge}</span>
@@ -202,7 +206,7 @@ def build_vintage_email_html(
         citations_html = f"""
         <div style="margin-top:28px; margin-bottom:20px;">
           <div style="font-family:'Courier New',monospace; font-size:10px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#111111; border-bottom:1px solid #1a1a1a; padding-bottom:4px; margin-bottom:8px;">
-            &sect; OFFICIAL GROUNDED SOURCES &amp; CITATIONS
+            OFFICIAL GROUNDED SOURCES &amp; CITATIONS
           </div>
           <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border:1px solid #1a1a1a; table-layout:fixed; width:100%;">
             {source_items}
@@ -272,8 +276,8 @@ def build_vintage_email_html(
             <!-- Top meta row for issue and stamp -->
             <tr>
               <td align="left" valign="middle" class="mobile-meta-cell" style="padding-bottom:4px; font-family:'Courier New',Courier,monospace; font-size:10px; font-weight:700; color:#111111; letter-spacing:1px;">
-                N&deg; / {month_label} &bull; &#x30CB;&#x30E5;&#x30FC;&#x30B9;
-                <span style="display:inline-block; background:#b8332a; color:#ffffff; font-family:'Courier New',monospace; font-size:8.5px; font-weight:bold; padding:2px 6px; border:1px solid #1a1a1a; text-transform:uppercase; margin-left:4px; vertical-align:middle;">
+                N&deg; / {month_label}
+                <span style="display:inline-block; background:#b8332a; color:#ffffff; font-family:'Courier New',monospace; font-size:8.5px; font-weight:bold; padding:2px 6px; border:1px solid #1a1a1a; text-transform:uppercase; margin-left:6px; vertical-align:middle;">
                   PRESS
                 </span>
               </td>
@@ -292,7 +296,7 @@ def build_vintage_email_html(
               N E W S
             </h1>
             <div class="mobile-tagline" style="font-family:Georgia,'Times New Roman',serif; font-size:12px; font-style:italic; color:#444444; letter-spacing:0.3px; margin-top:4px; line-height:1.4;">
-              Noticias &amp; Recomendaciones &bull; The Daily AI &amp; Silicon Chronicle
+              Daily Briefing &amp; Analysis &bull; The Daily AI &amp; Silicon Chronicle
             </div>
           </div>
         </td>

@@ -60,7 +60,7 @@ The single biggest tech news story right now worldwide.
   <a href="[REAL_URL]" style="display:block; font-family:'Playfair Display',Georgia,serif; font-size:21px; font-weight:900; color:#111111; text-decoration:none; line-height:1.25; margin:0 0 10px 0;">[Headline]</a>
   <p style="font-family:Georgia,serif; font-style:italic; font-size:13.5px; color:#222222; line-height:1.65; margin:0 0 14px 0;">[3 to 4 sentences summary]</p>
   <div style="background:#ede9df; border:1px solid #1a1a1a; border-left:4px solid #111111; padding:12px 14px;">
-    <p style="font-family:'Courier New',monospace; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#111111; margin:0 0 6px 0;">&sect; EDITORIAL ANALYSIS &bull; WHY THIS MATTERS</p>
+    <p style="font-family:'Courier New',monospace; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#111111; margin:0 0 6px 0;">EDITORIAL ANALYSIS &bull; WHY THIS MATTERS</p>
     <ul style="margin:0; padding-left:18px;">
       <li style="font-family:Georgia,serif; font-style:italic; font-size:12.5px; color:#222222; line-height:1.55; margin-bottom:4px;">[Insight 1]</li>
       <li style="font-family:Georgia,serif; font-style:italic; font-size:12.5px; color:#222222; line-height:1.55; margin-bottom:4px;">[Insight 2]</li>
@@ -80,7 +80,7 @@ Section header (DARK LETTERPRESS RIBBON):
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 02 &bull; ARTIFICIAL INTELLIGENCE &amp; MODELS
+        02 &bull; ARTIFICIAL INTELLIGENCE &amp; MODELS
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">DISPATCH</span>
@@ -112,7 +112,7 @@ Section header (DARK LETTERPRESS RIBBON):
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 03 &bull; HARDWARE &amp; TELEPHONY (INDIA &amp; GLOBAL)
+        03 &bull; HARDWARE &amp; TELEPHONY (INDIA &amp; GLOBAL)
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">LAUNCH WIRE</span>
@@ -144,7 +144,7 @@ Section header (DARK LETTERPRESS RIBBON):
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 04 &bull; SILICON &amp; COMPUTING (LAPTOPS)
+        04 &bull; SILICON &amp; COMPUTING (LAPTOPS)
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">DISPATCH</span>
@@ -175,7 +175,7 @@ Section header (DARK LETTERPRESS RIBBON):
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 05 &bull; GRAPHICS ACCELERATORS &amp; GPUS (NVIDIA)
+        05 &bull; GRAPHICS ACCELERATORS &amp; GPUS (NVIDIA)
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">SILICON WIRE</span>
@@ -206,7 +206,7 @@ Section header (DARK LETTERPRESS RIBBON):
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 06 &bull; CHINA TECH DOSSIER (HUAWEI &amp; DEEPSEEK)
+        06 &bull; CHINA TECH DOSSIER (HUAWEI &amp; DEEPSEEK)
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">GLOBAL</span>
@@ -237,7 +237,7 @@ Section header (DARK LETTERPRESS RIBBON):
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 07 &bull; BIG TECH &amp; ENTERPRISE DISPATCH
+        07 &bull; BIG TECH &amp; ENTERPRISE DISPATCH
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">CORPORATE</span>
@@ -273,7 +273,7 @@ Section header (DARK LETTERPRESS RIBBON):
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 08 &bull; CHRONICLE CALENDAR &amp; CONFERENCES
+        08 &bull; CHRONICLE CALENDAR &amp; CONFERENCES
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">NOTICES</span>
@@ -305,7 +305,7 @@ CRITICAL: If NO verified upcoming future events are found today, output this cle
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 08 &bull; CHRONICLE CALENDAR &amp; CONFERENCES
+        08 &bull; CHRONICLE CALENDAR &amp; CONFERENCES
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">NOTICE</span>
@@ -322,11 +322,11 @@ CRITICAL: If NO verified upcoming future events are found today, output this cle
 ============================================================
 SECTION 9: EDITOR'S TAKE
 ============================================================
-Personal commentary in the authentic "Sabias Que" newspaper format ending with a motivational line for Indian tech students.
+Personal commentary in the authentic Editor's Take newspaper format ending with a motivational line for Indian tech students.
 
 <div style="background:#ede9df; border:1px solid #1a1a1a; padding:18px 16px; margin-bottom:28px;">
   <div style="font-family:'Courier New',monospace; font-size:10.5px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#b8332a; margin-bottom:8px;">
-    &sect; 09 &bull; SABIAS QUE... / EDITOR'S TAKE
+    09 &bull; DID YOU KNOW... / EDITOR'S TAKE
   </div>
   <p style="font-family:Georgia,serif; font-style:italic; font-size:13.5px; color:#1a1a1a; line-height:1.65; margin:0 0 12px 0;">
     [First person editorial commentary on today's tech trends.]
@@ -361,7 +361,7 @@ def get_demo_html() -> str:
   <a href="https://deepmind.google" style="display:block; font-family:'Playfair Display',Georgia,serif; font-size:21px; font-weight:900; color:#111111; text-decoration:none; line-height:1.25; margin:0 0 10px 0;">Autonomous Reasoning Models Cross 95% Benchmark in Real-World Software Engineering</a>
   <p style="font-family:Georgia,serif; font-style:italic; font-size:13.5px; color:#222222; line-height:1.65; margin:0 0 14px 0;">A monumental leap in artificial intelligence occurred today as frontier reasoning architectures demonstrated sustained autonomous software engineering across complex repositories. The systems synthesize live search verification with recursive self correction, fundamentally altering software production worldwide.</p>
   <div style="background:#ede9df; border:1px solid #1a1a1a; border-left:4px solid #111111; padding:12px 14px;">
-    <p style="font-family:'Courier New',monospace; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#111111; margin:0 0 6px 0;">&sect; EDITORIAL ANALYSIS &bull; WHY THIS MATTERS</p>
+    <p style="font-family:'Courier New',monospace; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:#111111; margin:0 0 6px 0;">EDITORIAL ANALYSIS &bull; WHY THIS MATTERS</p>
     <ul style="margin:0; padding-left:18px;">
       <li style="font-family:Georgia,serif; font-style:italic; font-size:12.5px; color:#222222; line-height:1.55; margin-bottom:4px;">Drastically compresses software development and debugging cycles from weeks into hours.</li>
       <li style="font-family:Georgia,serif; font-style:italic; font-size:12.5px; color:#222222; line-height:1.55; margin-bottom:4px;">Enables Indian tech startups and independent developers to build world class software with leaner teams.</li>
@@ -375,7 +375,7 @@ def get_demo_html() -> str:
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 02 &bull; ARTIFICIAL INTELLIGENCE &amp; MODELS
+        02 &bull; ARTIFICIAL INTELLIGENCE &amp; MODELS
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">DISPATCH</span>
@@ -398,7 +398,7 @@ def get_demo_html() -> str:
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 03 &bull; HARDWARE &amp; TELEPHONY (INDIA &amp; GLOBAL)
+        03 &bull; HARDWARE &amp; TELEPHONY (INDIA &amp; GLOBAL)
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">LAUNCH WIRE</span>
@@ -421,7 +421,7 @@ def get_demo_html() -> str:
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 04 &bull; SILICON &amp; COMPUTING (LAPTOPS)
+        04 &bull; SILICON &amp; COMPUTING (LAPTOPS)
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">DISPATCH</span>
@@ -444,7 +444,7 @@ def get_demo_html() -> str:
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 05 &bull; GRAPHICS ACCELERATORS &amp; GPUS (NVIDIA)
+        05 &bull; GRAPHICS ACCELERATORS &amp; GPUS (NVIDIA)
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">SILICON WIRE</span>
@@ -467,7 +467,7 @@ def get_demo_html() -> str:
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 06 &bull; CHINA TECH DOSSIER (HUAWEI &amp; DEEPSEEK)
+        06 &bull; CHINA TECH DOSSIER (HUAWEI &amp; DEEPSEEK)
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">GLOBAL</span>
@@ -490,7 +490,7 @@ def get_demo_html() -> str:
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 07 &bull; BIG TECH &amp; ENTERPRISE DISPATCH
+        07 &bull; BIG TECH &amp; ENTERPRISE DISPATCH
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">CORPORATE</span>
@@ -513,7 +513,7 @@ def get_demo_html() -> str:
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 08 &bull; CHRONICLE CALENDAR &amp; CONFERENCES
+        08 &bull; CHRONICLE CALENDAR &amp; CONFERENCES
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">UPCOMING</span>
@@ -555,7 +555,7 @@ def get_demo_html() -> str:
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 09 &bull; SABIAS QUE... / EDITOR'S TAKE
+        09 &bull; DID YOU KNOW... / EDITOR'S TAKE
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">OPINION</span>
@@ -591,7 +591,7 @@ def sanitize_events_section(html_text: str) -> str:
     )
     
     sec8_match = re.search(
-        r'(<!--\s*SECTION 8[^-]*-->|<div[^>]*>.*?&sect;\s*08.*?</div>|<h2[^>]*>.*?Events.*?</h2>)(.*?)(<!--\s*SECTION 9|<div[^>]*>.*?&sect;\s*09|<h2[^>]*>.*?Editor.*?</h2>|\Z)',
+        r'(<!--\s*SECTION 8[^-]*-->|<div[^>]*>.*?08.*?</div>|<h2[^>]*>.*?Events.*?</h2>)(.*?)(<!--\s*SECTION 9|<div[^>]*>.*?09|<h2[^>]*>.*?Editor.*?</h2>|\Z)',
         html_text,
         re.DOTALL | re.IGNORECASE
     )
@@ -604,7 +604,7 @@ def sanitize_events_section(html_text: str) -> str:
   <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="left" style="font-family:'Playfair Display',Georgia,'Times New Roman',serif; font-size:14px; font-weight:900; letter-spacing:1.5px; text-transform:uppercase; color:#ffffff; line-height:1.2;">
-        &sect; 08 &bull; CHRONICLE CALENDAR &amp; CONFERENCES
+        08 &bull; CHRONICLE CALENDAR &amp; CONFERENCES
       </td>
       <td align="right" style="font-family:'Courier New',monospace; font-size:10px; font-weight:800; letter-spacing:1px; text-transform:uppercase; color:#ffffff; white-space:nowrap; padding-left:8px;">
         <span style="background:#b8332a; color:#ffffff; padding:3px 8px; border:1px solid rgba(255,255,255,0.4); display:inline-block; line-height:1;">NOTICE</span>
